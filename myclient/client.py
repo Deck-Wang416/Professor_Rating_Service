@@ -2,7 +2,8 @@ import requests
 
 class Client:
     def __init__(self):
-        self.base_url = 'http://127.0.0.1:8000'
+        # self.base_url = 'http://127.0.0.1:8000'
+        self.base_url = 'https://sc212yw.pythonanywhere.com'
         self.access_token = None
 
     def register(self):
